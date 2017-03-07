@@ -46,10 +46,12 @@ You should see at least one device available that uses the 6.0 platform. If you 
  *(Throughout the rest of this tutorial I will refer to both index.android.js and index.ios.js as just index.js. You will want to refer to the file that matches your target device)*<br/>
  Breaking down index.js:<br/>
  ![Image of top half of index.js](images/indexjs1.png)
+ *We are using ES6 in this tutorial. Since this may still be new for some, helpful links are provided throughout.*<br/>
+  [ES6 import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)<br/>
  The first import statement gives us the react component and is the only import from react that we will need. All the component files we create will require this import. The second import statement gives us the ability to write our native application using JavaScript.<br/>
  **AppRegistry:** Module for registering the application<br/>
  **StyleSheet:** Module for creating style sheets<br/>
- **Text:** Module for wiring up text
- **View** This module is required to display anything natively on the device.
- 
- 
+ **Text:** Module for wiring up text<br/>
+ **View:** This module is required to display anything natively on the device.<br/>
+ [ES6 export default](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) [class](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)<br/>
+ Next we see the default class which is the root of our application.
